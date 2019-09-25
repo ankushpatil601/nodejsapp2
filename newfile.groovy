@@ -17,7 +17,7 @@ pipeline
 							
 								sh """ 
 								
-								docker build -t ankushpa/nodeapp:19 .
+								docker build -t ankushpa/nodeapp2:19 .
 								
 								"""
 							}
