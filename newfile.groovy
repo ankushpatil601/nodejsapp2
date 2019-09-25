@@ -18,7 +18,7 @@ pipeline
 								sh """ 
 								ls -ltr
 								
-								docker-compose up
+								docker-compose up --build
 								
 								"""
 							}
