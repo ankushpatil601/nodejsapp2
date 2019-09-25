@@ -12,3 +12,19 @@ pipeline
 					{
 						script
 						{
+							
+							docker.withRegistry('https://index.docker.io/v1/', 'dockerhub') {
+							
+								sh """ 
+								
+								docker build -t ankushpa/nodeapp:19 .
+								
+								"""
+							}
+							
+						}
+					}
+				}
+			}
+		}
+	}	
