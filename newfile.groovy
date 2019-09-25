@@ -18,7 +18,8 @@ pipeline
 								sh """ 
 								ls -ltr
 								
-								docker-compose up --build
+															
+								sudo docker-compose up --build
 								
 								"""
 							}
