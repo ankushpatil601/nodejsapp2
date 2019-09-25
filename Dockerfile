@@ -6,6 +6,6 @@ COPY package.jason.
 
 RUN npm install
 
-COPY . . 
+COPY ./ ./
 
 CMD ["npm","start"]
