@@ -16,6 +16,7 @@ pipeline
 							docker.withRegistry('https://index.docker.io/v1/', 'dockerhub') {
 							
 								sh """ 
+								ls -ltr
 								
 								docker build -t ankushpa/nodeapp2:19 .
 								
