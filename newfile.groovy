@@ -18,7 +18,7 @@ pipeline
 								sh """ 
 								ls -ltr
 								
-								docker build -t ankushpa/nodeapp2:19 .
+								docker-compose up
 								
 								"""
 							}
