@@ -19,7 +19,7 @@ pipeline
 								ls -ltr
 								
 															
-								sudo docker-compose up --build
+								docker-compose up
 								
 								"""
 							}
