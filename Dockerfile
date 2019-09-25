@@ -2,7 +2,7 @@ FROM node:alpine
 
 WORKDIR '/app'
 
-COPY package.jason.
+COPY package.jason .
 
 RUN npm install
 
